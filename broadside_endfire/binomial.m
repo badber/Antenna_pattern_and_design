@@ -1,7 +1,11 @@
+% Author: Luis Badesa
+
+%%
 clear all
 close all
 clc
 
+%%
 prompt = sprintf ('What is the number of elements in the array? \n');
 n = input(prompt);
 if ~isscalar(n) || (n~=floor(n)) || n<=1
@@ -66,7 +70,7 @@ i=1;
 phi = [];
 ET_over_E0 = [];
 if  strcmp(array_type,'broadside')
-    % I checked by testing the expression for phi as a function of psi, and this is what I need to print the 360° of phi
+    % I checked by testing the expression for phi as a function of psi, and this is what I need to print the 360Â° of phi
     psi_initial = -kd;
     psi_end = kd;
 elseif strcmp(array_type,'end_fire')
