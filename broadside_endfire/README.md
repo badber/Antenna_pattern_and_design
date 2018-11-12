@@ -1,1 +1,1 @@
-Compute radiation patterns of different types of broadside and endfire antenna-arrays
+Compute radiation patterns for different types of broadside and endfire antenna-arrays
