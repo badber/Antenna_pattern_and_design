@@ -1,7 +1,11 @@
+% Author: Luis Badesa
+
+%%
 clear all
 close all
 clc
 
+%%
 prompt = sprintf ('What is the number of elements in the array? \n');
 n = input(prompt);
 if ~isscalar(n) || (n~=floor(n)) || n<=1
