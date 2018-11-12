@@ -1,7 +1,11 @@
+% Author: Luis Badesa
+
+%%
 clear all
 close all
 clc
 
+%%
 prompt = sprintf ('How many arrays are to be compared? \n');
 number_arrays = input(prompt);
 if ~isscalar(number_arrays) || (number_arrays~=floor(number_arrays)) || number_arrays<=1 || number_arrays>5
@@ -106,8 +110,8 @@ for i=1:number_arrays
         %%
         % Calculate the range of psi:
         disp(['Range of psi for the ' string_array{i} ' array:'])
-        psi_max(i) = kd(i)+alpha(i); % Using phi=0°
-        psi_min(i) = -kd(i)+alpha(i); % Using phi=180°
+        psi_max(i) = kd(i)+alpha(i); % Using phi=0Â°
+        psi_min(i) = -kd(i)+alpha(i); % Using phi=180Â°
         psi_max(i)
         psi_min(i)
 
