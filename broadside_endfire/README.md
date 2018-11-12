@@ -7,3 +7,4 @@ Types of arrays, depending on their current distribution:
 - [Binomial array](binomial.m/): currents follow a binomial distribution. Gives no secondary lobes, only a wide primary lobe. 
 - [Triangular array](triangular.m/): current ratios are triangular. Gives narrower main lobes than binomial, but with some secondary lobes (althought he secondary lobes are smaller than in the uniform array). 
 
+[This file](Comparison.m/) compares all 3 current distributions. 
