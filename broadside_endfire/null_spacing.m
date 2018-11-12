@@ -1,7 +1,11 @@
+% Author: Luis Badesa
+
+%%
 clear all
 close all
 clc
 
+%%
 prompt = sprintf ('What is the number of elements in the array? \n');
 n = input(prompt);
 if ~isscalar(n) || (n~=floor(n)) || n<=1
@@ -38,8 +42,8 @@ end
 %%
 % Calculate the range of psi:
 disp('Range of psi:')
-psi_max = kd+alpha % Using phi=0°
-psi_min = -kd+alpha % Using phi=180°
+psi_max = kd+alpha % Using phi=0Â°
+psi_min = -kd+alpha % Using phi=180Â°
 
 % Number of nulls:
 nulls_number = n-1;
