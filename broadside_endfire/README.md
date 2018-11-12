@@ -9,6 +9,6 @@ Types of arrays, depending on their current distribution:
 
 [This file](Comparison.m/) compares all 3 current distributions mentioned above. 
 
-It is possible to *move* the null points in the radiation pattern, see [this file](null_spacing.m/).
+It is possible to move the null points in the radiation pattern, see [this file](null_spacing.m/).
 
 Finally [this file](null_spacing_Comparison.m/) makes a comprehensive comparison of any type of array mentioned above.
