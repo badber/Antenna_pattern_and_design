@@ -1,3 +1,5 @@
+% Author: Luis Badesa
+
 %% Horizontal Dipole antenna (end-fed)
 clear all
 close all
