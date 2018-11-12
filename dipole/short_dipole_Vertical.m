@@ -1,3 +1,5 @@
+% Author: Luis Badesa
+
 %% Short dipole
 
 clear all
