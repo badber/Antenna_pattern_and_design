@@ -1,0 +1,4 @@
+- **fourier1.m** is an 'end_fire' array, d=1/2
+- **fourier2.m** is a 'none' array (neither 'broadside' nor 'end_fire'), alpha=-pi/4, d=1/4
+- **fourier3.m** end_fire array with 15 elements, no side lobes and the main lobe within phi 0°-30° and 150°-180° (remember it's symmetrical w.r.t. the phi=0° axis)
+- **fourier4.m** broadside array with no minor lobes (then d=1/2) and the main lobe within phi 70°-110°
