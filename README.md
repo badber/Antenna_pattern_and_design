@@ -1,4 +1,4 @@
-# Antenna_patterns
+# Antenna_pattern_and_design
 1. Compute the radiation patterns of several [dipole antennas](dipole/).
 2. Compute the radiation patterns of diverse types of **antenna-arrays**.
 3. Design diverse types of **antenna-arrays**. 
