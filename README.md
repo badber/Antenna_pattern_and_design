@@ -1,5 +1,5 @@
 # Antenna_patterns
-Compute radiation patterns of antenna-arrays.
+Design diverse types of antenna-arrays and compute their radiation patterns.
 
 (see [here](http://www.idc-online.com/technical_references/pdfs/electronic_engineering/Antenna_arrays.pdf) some brief intro notes to antenna arrays)
 
