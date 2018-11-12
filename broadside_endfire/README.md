@@ -4,6 +4,6 @@ Compute radiation patterns for different types of **broadside** and **end-fire**
 
 Types of arrays, depending on their current distribution:
 - [Uniform array](uniform.m/): currents are the same in all elements of the array. Gives secondary lobes whenever the elements are more than half-wavelength apart.
-- **Binomial array**: currents follow a binomial distribution. Gives no secondary lobes, only a wide primary lobe. 
-- **Triangular array**: current ratios are triangular. Gives narrower main lobes than binomial, but with some secondary lobes (althought he secondary lobes are smaller than in the uniform array). 
+- [Binomial array](binomial.m/): currents follow a binomial distribution. Gives no secondary lobes, only a wide primary lobe. 
+- [Triangular array](triangular.m/): current ratios are triangular. Gives narrower main lobes than binomial, but with some secondary lobes (althought he secondary lobes are smaller than in the uniform array). 
 
