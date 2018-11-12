@@ -1,7 +1,11 @@
+% Author: Luis Badesa
+
+%%
 clear all
 close all
 clc
 
+%%
 disp('Modify:')
 disp('- a0: DC term of the Fourier series')
 disp('- a(k): expression for sine coeffs')
