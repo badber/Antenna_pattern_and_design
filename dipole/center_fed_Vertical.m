@@ -1,3 +1,5 @@
+% Author: Luis Badesa
+
 %% Vertical Dipole antenna (center-fed)
 clear all
 close all
